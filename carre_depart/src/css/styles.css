@@ -1,0 +1,27 @@
+/* Conservez ces lignes de css */
+
+@import url("https://web3.tim-momo.com/carre/styles.css");
+
+.back {
+  aspect-ratio: 5 / 7;
+}
+
+.carte {
+  aspect-ratio: 5 / 7;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+  background-color: black;
+  color: white;
+  }
+}
+
+.text-danger {
+  color: rgb(255, 0, 0);
+}
+
+.flip {
+  transform: scaleX(-1);
+}
