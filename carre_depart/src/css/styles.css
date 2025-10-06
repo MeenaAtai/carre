@@ -19,3 +19,10 @@
 .flip {
   transform: scaleX(-1);
 }
+
+.carte {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
