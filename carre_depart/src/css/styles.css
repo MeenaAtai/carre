@@ -10,13 +10,7 @@
   aspect-ratio: 5 / 7;
 }
 
-/* Dark mode styles */
-@media (prefers-color-scheme: dark) {
-  body {
-  background-color: black;
-  color: white;
-  }
-}
+
 
 .text-danger {
   color: rgb(255, 0, 0);
